@@ -9,6 +9,10 @@ public class Human {
         this.age = age;
     }
 
+    public String introduction(){
+        return "Hello my name is: " + name;
+    }
+
     public String getName() {
         return name;
     }
