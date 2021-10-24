@@ -5,11 +5,10 @@ public class MovieMain {
         Movie movie1 = new Movie("Csillagok háborúja", 1974);
         System.out.println(movie1.rating(4));
         System.out.println(movie1.rating(5));
-        System.out.println(movie1.rating(5));
 
         Viewer viewer = new Viewer();
-        //viewer.watchMovie(movie1, 5);
-        //System.out.println(movie1.getAverageRate());
+        viewer.watchMovie(movie1, 1);
+        System.out.println(movie1.getAverageRate());
 
 
     }
